@@ -22,12 +22,6 @@
 		CB54F5B318D2FC1F002238E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB54F59218D2FC1E002238E8 /* UIKit.framework */; };
 		CB54F5BB18D2FC1F002238E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB54F5B918D2FC1F002238E8 /* InfoPlist.strings */; };
 		CB54F5BD18D2FC1F002238E8 /* StrikinglyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F5BC18D2FC1F002238E8 /* StrikinglyTests.m */; };
-		CB54F5CC18D300AA002238E8 /* SKImageAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F5CB18D300AA002238E8 /* SKImageAssetManager.m */; };
-		CB54F5CF18D300C3002238E8 /* SKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F5CE18D300C3002238E8 /* SKBaseModel.m */; };
-		CB54F5D218D300D8002238E8 /* SKGetImagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F5D118D300D8002238E8 /* SKGetImagesModel.m */; };
-		CB54F5D518D300F5002238E8 /* SKLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F5D418D300F5002238E8 /* SKLoginModel.m */; };
-		CB54F5D818D3010E002238E8 /* SKAddImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F5D718D3010E002238E8 /* SKAddImageModel.m */; };
-		CB54F5DB18D3011E002238E8 /* SKDeleteImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F5DA18D3011E002238E8 /* SKDeleteImageModel.m */; };
 		CB54F5E018D3355A002238E8 /* NSDictionary+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F5DF18D3355A002238E8 /* NSDictionary+Utilities.m */; };
 		CB54F64D18D339FD002238E8 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F63918D339FD002238E8 /* MKAnnotationView+WebCache.m */; };
 		CB54F64E18D339FD002238E8 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F63B18D339FD002238E8 /* SDImageCache.m */; };
@@ -39,7 +33,20 @@
 		CB54F65418D339FD002238E8 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F64818D339FD002238E8 /* SDWebImagePrefetcher.m */; };
 		CB54F65518D339FD002238E8 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F64A18D339FD002238E8 /* UIButton+WebCache.m */; };
 		CB54F65618D339FD002238E8 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F64C18D339FD002238E8 /* UIImageView+WebCache.m */; };
-		CB54F66118D40640002238E8 /* SKAddImageQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F66018D40640002238E8 /* SKAddImageQueue.m */; };
+		CB54F66D18D59C71002238E8 /* SKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F66C18D59C71002238E8 /* SKBaseViewController.m */; };
+		CB54F67118D59DEA002238E8 /* SKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54F66F18D59C81002238E8 /* SKLoginViewController.m */; };
+		CBB94C0918D59F2100E86D96 /* SKAddImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94BFA18D59F2100E86D96 /* SKAddImageModel.m */; };
+		CBB94C0A18D59F2100E86D96 /* SKAddImageQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94BFC18D59F2100E86D96 /* SKAddImageQueue.m */; };
+		CBB94C0B18D59F2100E86D96 /* SKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94BFE18D59F2100E86D96 /* SKBaseModel.m */; };
+		CBB94C0C18D59F2100E86D96 /* SKDeleteImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94C0018D59F2100E86D96 /* SKDeleteImageModel.m */; };
+		CBB94C0D18D59F2100E86D96 /* SKDeleteImageQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94C0218D59F2100E86D96 /* SKDeleteImageQueue.m */; };
+		CBB94C0E18D59F2100E86D96 /* SKGetImagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94C0418D59F2100E86D96 /* SKGetImagesModel.m */; };
+		CBB94C0F18D59F2100E86D96 /* SKImageAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94C0618D59F2100E86D96 /* SKImageAssetManager.m */; };
+		CBB94C1018D59F2100E86D96 /* SKLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94C0818D59F2100E86D96 /* SKLoginModel.m */; };
+		CBB94C1318D5A25000E86D96 /* SKImageSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94C1218D5A25000E86D96 /* SKImageSetViewController.m */; };
+		CBB94C5D18D5A68E00E86D96 /* SKImageSetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94C5C18D5A68E00E86D96 /* SKImageSetCell.m */; };
+		CBB94C6018D5B0A300E86D96 /* SKImageAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94C5F18D5B0A300E86D96 /* SKImageAlbumViewController.m */; };
+		CBB94C6418D5B28000E86D96 /* PicsLikeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB94C6318D5B28000E86D96 /* PicsLikeControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,18 +80,6 @@
 		CB54F5B818D2FC1F002238E8 /* StrikinglyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrikinglyTests-Info.plist"; sourceTree = "<group>"; };
 		CB54F5BA18D2FC1F002238E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB54F5BC18D2FC1F002238E8 /* StrikinglyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrikinglyTests.m; sourceTree = "<group>"; };
-		CB54F5CA18D300AA002238E8 /* SKImageAssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKImageAssetManager.h; path = ../../../../Documents/SKImageAssetManager.h; sourceTree = "<group>"; };
-		CB54F5CB18D300AA002238E8 /* SKImageAssetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKImageAssetManager.m; path = ../../../../Documents/SKImageAssetManager.m; sourceTree = "<group>"; };
-		CB54F5CD18D300C3002238E8 /* SKBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBaseModel.h; path = ../../../../Documents/SKBaseModel.h; sourceTree = "<group>"; };
-		CB54F5CE18D300C3002238E8 /* SKBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBaseModel.m; path = ../../../../Documents/SKBaseModel.m; sourceTree = "<group>"; };
-		CB54F5D018D300D8002238E8 /* SKGetImagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKGetImagesModel.h; path = ../../../../Documents/SKGetImagesModel.h; sourceTree = "<group>"; };
-		CB54F5D118D300D8002238E8 /* SKGetImagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKGetImagesModel.m; path = ../../../../Documents/SKGetImagesModel.m; sourceTree = "<group>"; };
-		CB54F5D318D300F5002238E8 /* SKLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKLoginModel.h; path = ../../../../Documents/SKLoginModel.h; sourceTree = "<group>"; };
-		CB54F5D418D300F5002238E8 /* SKLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKLoginModel.m; path = ../../../../Documents/SKLoginModel.m; sourceTree = "<group>"; };
-		CB54F5D618D3010E002238E8 /* SKAddImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKAddImageModel.h; path = ../../../../Documents/SKAddImageModel.h; sourceTree = "<group>"; };
-		CB54F5D718D3010E002238E8 /* SKAddImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKAddImageModel.m; path = ../../../../Documents/SKAddImageModel.m; sourceTree = "<group>"; };
-		CB54F5D918D3011E002238E8 /* SKDeleteImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKDeleteImageModel.h; path = ../../../../Documents/SKDeleteImageModel.h; sourceTree = "<group>"; };
-		CB54F5DA18D3011E002238E8 /* SKDeleteImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKDeleteImageModel.m; path = ../../../../Documents/SKDeleteImageModel.m; sourceTree = "<group>"; };
 		CB54F5DC18D30264002238E8 /* SKConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKConfig.h; sourceTree = "<group>"; };
 		CB54F5DE18D3355A002238E8 /* NSDictionary+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utilities.h"; sourceTree = "<group>"; };
 		CB54F5DF18D3355A002238E8 /* NSDictionary+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utilities.m"; sourceTree = "<group>"; };
@@ -109,8 +104,34 @@
 		CB54F64A18D339FD002238E8 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
 		CB54F64B18D339FD002238E8 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		CB54F64C18D339FD002238E8 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		CB54F65F18D40640002238E8 /* SKAddImageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKAddImageQueue.h; path = ../../../../Documents/SKAddImageQueue.h; sourceTree = "<group>"; };
-		CB54F66018D40640002238E8 /* SKAddImageQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKAddImageQueue.m; path = ../../../../Documents/SKAddImageQueue.m; sourceTree = "<group>"; };
+		CB54F66B18D59C71002238E8 /* SKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBaseViewController.h; sourceTree = "<group>"; };
+		CB54F66C18D59C71002238E8 /* SKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBaseViewController.m; sourceTree = "<group>"; };
+		CB54F66E18D59C81002238E8 /* SKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLoginViewController.h; sourceTree = "<group>"; };
+		CB54F66F18D59C81002238E8 /* SKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLoginViewController.m; sourceTree = "<group>"; };
+		CBB94BF918D59F2100E86D96 /* SKAddImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAddImageModel.h; sourceTree = "<group>"; };
+		CBB94BFA18D59F2100E86D96 /* SKAddImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAddImageModel.m; sourceTree = "<group>"; };
+		CBB94BFB18D59F2100E86D96 /* SKAddImageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAddImageQueue.h; sourceTree = "<group>"; };
+		CBB94BFC18D59F2100E86D96 /* SKAddImageQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAddImageQueue.m; sourceTree = "<group>"; };
+		CBB94BFD18D59F2100E86D96 /* SKBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBaseModel.h; sourceTree = "<group>"; };
+		CBB94BFE18D59F2100E86D96 /* SKBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBaseModel.m; sourceTree = "<group>"; };
+		CBB94BFF18D59F2100E86D96 /* SKDeleteImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDeleteImageModel.h; sourceTree = "<group>"; };
+		CBB94C0018D59F2100E86D96 /* SKDeleteImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDeleteImageModel.m; sourceTree = "<group>"; };
+		CBB94C0118D59F2100E86D96 /* SKDeleteImageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDeleteImageQueue.h; sourceTree = "<group>"; };
+		CBB94C0218D59F2100E86D96 /* SKDeleteImageQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDeleteImageQueue.m; sourceTree = "<group>"; };
+		CBB94C0318D59F2100E86D96 /* SKGetImagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKGetImagesModel.h; sourceTree = "<group>"; };
+		CBB94C0418D59F2100E86D96 /* SKGetImagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKGetImagesModel.m; sourceTree = "<group>"; };
+		CBB94C0518D59F2100E86D96 /* SKImageAssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKImageAssetManager.h; sourceTree = "<group>"; };
+		CBB94C0618D59F2100E86D96 /* SKImageAssetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKImageAssetManager.m; sourceTree = "<group>"; };
+		CBB94C0718D59F2100E86D96 /* SKLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLoginModel.h; sourceTree = "<group>"; };
+		CBB94C0818D59F2100E86D96 /* SKLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLoginModel.m; sourceTree = "<group>"; };
+		CBB94C1118D5A25000E86D96 /* SKImageSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKImageSetViewController.h; sourceTree = "<group>"; };
+		CBB94C1218D5A25000E86D96 /* SKImageSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKImageSetViewController.m; sourceTree = "<group>"; };
+		CBB94C5B18D5A68E00E86D96 /* SKImageSetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKImageSetCell.h; sourceTree = "<group>"; };
+		CBB94C5C18D5A68E00E86D96 /* SKImageSetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKImageSetCell.m; sourceTree = "<group>"; };
+		CBB94C5E18D5B0A300E86D96 /* SKImageAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKImageAlbumViewController.h; sourceTree = "<group>"; };
+		CBB94C5F18D5B0A300E86D96 /* SKImageAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKImageAlbumViewController.m; sourceTree = "<group>"; };
+		CBB94C6218D5B28000E86D96 /* PicsLikeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicsLikeControl.h; sourceTree = "<group>"; };
+		CBB94C6318D5B28000E86D96 /* PicsLikeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicsLikeControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +197,10 @@
 				CB54F5A318D2FC1E002238E8 /* Main_iPad.storyboard */,
 				CB54F5A618D2FC1E002238E8 /* ViewController.h */,
 				CB54F5A718D2FC1E002238E8 /* ViewController.m */,
+				CBB94C6118D5B28000E86D96 /* PicsLikeControl */,
+				CB54F66A18D59C4F002238E8 /* SKViewController */,
 				CB54F5DC18D30264002238E8 /* SKConfig.h */,
-				CB54F5C618D30039002238E8 /* SKImageAsset */,
+				CBB94BF818D59F2100E86D96 /* SKImageAsset */,
 				CB54F63718D339FD002238E8 /* SDWebImage */,
 				CB54F5DD18D33537002238E8 /* Utilities */,
 				CB54F5A918D2FC1E002238E8 /* Images.xcassets */,
@@ -215,27 +238,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CB54F5C618D30039002238E8 /* SKImageAsset */ = {
-			isa = PBXGroup;
-			children = (
-				CB54F5CA18D300AA002238E8 /* SKImageAssetManager.h */,
-				CB54F5CB18D300AA002238E8 /* SKImageAssetManager.m */,
-				CB54F5CD18D300C3002238E8 /* SKBaseModel.h */,
-				CB54F5CE18D300C3002238E8 /* SKBaseModel.m */,
-				CB54F5D018D300D8002238E8 /* SKGetImagesModel.h */,
-				CB54F5D118D300D8002238E8 /* SKGetImagesModel.m */,
-				CB54F5D318D300F5002238E8 /* SKLoginModel.h */,
-				CB54F5D418D300F5002238E8 /* SKLoginModel.m */,
-				CB54F65F18D40640002238E8 /* SKAddImageQueue.h */,
-				CB54F66018D40640002238E8 /* SKAddImageQueue.m */,
-				CB54F5D618D3010E002238E8 /* SKAddImageModel.h */,
-				CB54F5D718D3010E002238E8 /* SKAddImageModel.m */,
-				CB54F5D918D3011E002238E8 /* SKDeleteImageModel.h */,
-				CB54F5DA18D3011E002238E8 /* SKDeleteImageModel.m */,
-			);
-			path = SKImageAsset;
-			sourceTree = "<group>";
-		};
 		CB54F5DD18D33537002238E8 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +273,55 @@
 				CB54F64C18D339FD002238E8 /* UIImageView+WebCache.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		CB54F66A18D59C4F002238E8 /* SKViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB54F66B18D59C71002238E8 /* SKBaseViewController.h */,
+				CB54F66C18D59C71002238E8 /* SKBaseViewController.m */,
+				CB54F66E18D59C81002238E8 /* SKLoginViewController.h */,
+				CB54F66F18D59C81002238E8 /* SKLoginViewController.m */,
+				CBB94C1118D5A25000E86D96 /* SKImageSetViewController.h */,
+				CBB94C1218D5A25000E86D96 /* SKImageSetViewController.m */,
+				CBB94C5B18D5A68E00E86D96 /* SKImageSetCell.h */,
+				CBB94C5C18D5A68E00E86D96 /* SKImageSetCell.m */,
+				CBB94C5E18D5B0A300E86D96 /* SKImageAlbumViewController.h */,
+				CBB94C5F18D5B0A300E86D96 /* SKImageAlbumViewController.m */,
+			);
+			path = SKViewController;
+			sourceTree = "<group>";
+		};
+		CBB94BF818D59F2100E86D96 /* SKImageAsset */ = {
+			isa = PBXGroup;
+			children = (
+				CBB94BF918D59F2100E86D96 /* SKAddImageModel.h */,
+				CBB94BFA18D59F2100E86D96 /* SKAddImageModel.m */,
+				CBB94BFB18D59F2100E86D96 /* SKAddImageQueue.h */,
+				CBB94BFC18D59F2100E86D96 /* SKAddImageQueue.m */,
+				CBB94BFD18D59F2100E86D96 /* SKBaseModel.h */,
+				CBB94BFE18D59F2100E86D96 /* SKBaseModel.m */,
+				CBB94BFF18D59F2100E86D96 /* SKDeleteImageModel.h */,
+				CBB94C0018D59F2100E86D96 /* SKDeleteImageModel.m */,
+				CBB94C0118D59F2100E86D96 /* SKDeleteImageQueue.h */,
+				CBB94C0218D59F2100E86D96 /* SKDeleteImageQueue.m */,
+				CBB94C0318D59F2100E86D96 /* SKGetImagesModel.h */,
+				CBB94C0418D59F2100E86D96 /* SKGetImagesModel.m */,
+				CBB94C0518D59F2100E86D96 /* SKImageAssetManager.h */,
+				CBB94C0618D59F2100E86D96 /* SKImageAssetManager.m */,
+				CBB94C0718D59F2100E86D96 /* SKLoginModel.h */,
+				CBB94C0818D59F2100E86D96 /* SKLoginModel.m */,
+			);
+			path = SKImageAsset;
+			sourceTree = "<group>";
+		};
+		CBB94C6118D5B28000E86D96 /* PicsLikeControl */ = {
+			isa = PBXGroup;
+			children = (
+				CBB94C6218D5B28000E86D96 /* PicsLikeControl.h */,
+				CBB94C6318D5B28000E86D96 /* PicsLikeControl.m */,
+			);
+			path = PicsLikeControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,27 +422,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB94C0E18D59F2100E86D96 /* SKGetImagesModel.m in Sources */,
+				CBB94C1018D59F2100E86D96 /* SKLoginModel.m in Sources */,
+				CBB94C0C18D59F2100E86D96 /* SKDeleteImageModel.m in Sources */,
+				CBB94C0D18D59F2100E86D96 /* SKDeleteImageQueue.m in Sources */,
+				CB54F67118D59DEA002238E8 /* SKLoginViewController.m in Sources */,
 				CB54F65018D339FD002238E8 /* SDWebImageDecoder.m in Sources */,
-				CB54F5DB18D3011E002238E8 /* SKDeleteImageModel.m in Sources */,
+				CBB94C1318D5A25000E86D96 /* SKImageSetViewController.m in Sources */,
 				CB54F65618D339FD002238E8 /* UIImageView+WebCache.m in Sources */,
 				CB54F65218D339FD002238E8 /* SDWebImageDownloaderOperation.m in Sources */,
 				CB54F65318D339FD002238E8 /* SDWebImageManager.m in Sources */,
-				CB54F66118D40640002238E8 /* SKAddImageQueue.m in Sources */,
 				CB54F64D18D339FD002238E8 /* MKAnnotationView+WebCache.m in Sources */,
-				CB54F5CC18D300AA002238E8 /* SKImageAssetManager.m in Sources */,
 				CB54F65118D339FD002238E8 /* SDWebImageDownloader.m in Sources */,
-				CB54F5CF18D300C3002238E8 /* SKBaseModel.m in Sources */,
 				CB54F64F18D339FD002238E8 /* SDWebImageCompat.m in Sources */,
+				CBB94C0918D59F2100E86D96 /* SKAddImageModel.m in Sources */,
 				CB54F65418D339FD002238E8 /* SDWebImagePrefetcher.m in Sources */,
 				CB54F5E018D3355A002238E8 /* NSDictionary+Utilities.m in Sources */,
+				CBB94C5D18D5A68E00E86D96 /* SKImageSetCell.m in Sources */,
+				CBB94C0A18D59F2100E86D96 /* SKAddImageQueue.m in Sources */,
 				CB54F5A818D2FC1E002238E8 /* ViewController.m in Sources */,
 				CB54F65518D339FD002238E8 /* UIButton+WebCache.m in Sources */,
-				CB54F5D218D300D8002238E8 /* SKGetImagesModel.m in Sources */,
 				CB54F64E18D339FD002238E8 /* SDImageCache.m in Sources */,
+				CB54F66D18D59C71002238E8 /* SKBaseViewController.m in Sources */,
 				CB54F59F18D2FC1E002238E8 /* AppDelegate.m in Sources */,
 				CB54F59B18D2FC1E002238E8 /* main.m in Sources */,
-				CB54F5D518D300F5002238E8 /* SKLoginModel.m in Sources */,
-				CB54F5D818D3010E002238E8 /* SKAddImageModel.m in Sources */,
+				CBB94C6018D5B0A300E86D96 /* SKImageAlbumViewController.m in Sources */,
+				CBB94C6418D5B28000E86D96 /* PicsLikeControl.m in Sources */,
+				CBB94C0F18D59F2100E86D96 /* SKImageAssetManager.m in Sources */,
+				CBB94C0B18D59F2100E86D96 /* SKBaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +668,7 @@
 				CB54F5C218D2FC1F002238E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB54F5C318D2FC1F002238E8 /* Build configuration list for PBXNativeTarget "StrikinglyTests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +677,7 @@
 				CB54F5C518D2FC1F002238E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
